@@ -11,6 +11,14 @@ class Flat
         $this->size = $size;
         $this->room = $room;
     }
+    public function setSize($size)
+    {
+        $this->size = $size;
+    }
+    public function setRoom($room)
+    {
+        $this->room = $rooom;
+    }
     public function rebuild($newSize, $newRoom)
     {
         $this->size = $newSize;
